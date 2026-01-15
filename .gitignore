@@ -1,0 +1,5 @@
+*.pyc
+data/raw/*
+models/weights/*
+.env
+venv

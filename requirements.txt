@@ -1,0 +1,25 @@
+# Core Computer Vision & Deep Learning
+ultralytics>=8.0.0      # YOLOv8 framework
+opencv-python           # Standard CV operations
+torch                   # Deep Learning backend
+torchvision             # Image processing utilities
+numpy<2.0.0             # Numerical operations (pinned to avoid compatibility issues)
+
+# Production-Grade Inference (MLOps)
+onnx                    # Model interoperability format
+onnxruntime             # High-speed CPU/GPU inference engine
+python-dotenv           # Environment variable management
+
+# Industrial Data Engineering
+albumentations          # Advanced image augmentation for factory lighting simulation
+pandas                  # Log and telemetry analysis
+pyyaml                  # Hardware and model configuration management
+
+# Hardware & Communication
+pyserial                # UART/Serial communication with ESP32/Actuators
+
+# Deployment & Monitoring (FastAPI for the "System" feel)
+fastapi                 # Lightweight API for system integration
+uvicorn                 # ASGI server for FastAPI
+pydantic                # Data validation and settings management using Python type hints
+mlflow                  # Experiment tracking and model versioning

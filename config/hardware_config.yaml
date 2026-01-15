@@ -1,0 +1,20 @@
+# Serial ports: /dev/ttyUSB0, baudrate: 115200
+# Physical Calibration Constants
+conveyor:
+  speed_mm_per_sec: 150.0 # Speed of the belt
+  direction: "left_to_right"
+
+camera:
+  resolution: [1920, 1080]
+  fov_width_mm: 400.0 # How many mm the camera sees horizontally
+  # Pixels per mm = 1920 / 400 = 4.8
+  dist_to_actuator_mm: 550.0 # Physical distance from camera center to air nozzle
+
+system_latency:
+  inference_ms: 15.0 # Average time for YOLO to process one frame
+  actuator_response_ms: 5.0 # Time for the air solenoid to physically open
+  communication_ms: 2.0 # Serial transmission delay
+
+detection_logic:
+  min_confidence: 0.75
+  target_classes: ["resistor", "transistor", "capacitor"]
