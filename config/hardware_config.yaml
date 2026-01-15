@@ -16,5 +16,17 @@ system_latency:
   communication_ms: 2.0 # Serial transmission delay
 
 detection_logic:
-  min_confidence: 0.75
-  target_classes: ["resistor", "transistor", "capacitor"]
+  min_confidence: 0.50 # Increase from 0.25 to 0.50
+  iou_threshold: 0.45 # Add this: it tells YOLO to merge boxes that overlap by 45%
+  target_classes:
+    [
+      "Cap1",
+      "Cap2",
+      "Cap3",
+      "Cap4",
+      "MOSFET",
+      "Mov",
+      "Resestor",
+      "Resistor",
+      "Transformer",
+    ]

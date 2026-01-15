@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Github%20Repos/ML%20Projects/AOI-Net/logs/training/665376304479058640/9ba9f52d6ccf4befa0a2f4ccaaa2bdf1/artifacts
+end_time: 1768493056338
+entry_point_name: ''
+experiment_id: '665376304479058640'
+lifecycle_stage: active
+run_id: 9ba9f52d6ccf4befa0a2f4ccaaa2bdf1
+run_name: AOI_Component_Detector
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768493054280
+status: 3
+tags: []
+user_id: swaga
